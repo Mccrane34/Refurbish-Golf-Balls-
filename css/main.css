@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+body {
+	font-family: "roboto", sans-serif;		
+	font-weight: 300;
+	font-size: 2em;
+	position: relative;
+	}
+h1, h2,h3,h4,h5 {
+	font-family: amatic-sc;
+	font-weight: 100;
+	margin: 0;
+	font-style: normal;
+}
+.nav.navbar-nav.navbar-right li a {
+	color: #FFFFFF;
+}
+.navbar-header .navbar-brand h1 {
+	color: #FFFFFF;
+}
+
+
+
+
+.page {
+	padding: 50px 0;
+	
+}
+
+.page h2 {
+	text-align: center;
+	margin: 30px;
+}
+
+#golfHistory {
+	background-color: #e4d29d;
+	background-image: linear-gradient(to bottom, #eef08a, #819a2d);
+	border-top: 20px solid rgba(238, 200, 86, .5);
+}
+
+/* Pro Golfers*/
+
+#ProGolfersBio {
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+}
+
+.progolfer{
+	margin: 10px 0;
+}
+.progolfer h3 {
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #6F4E36;
+	padding-bottom: 5px;
+}
+.progolfer p {
+	font-size: .8em;
+}
+.progolfer img {
+	width: 100%;
+}
+
+.golfBalls {
+	margin: 20px 0;
+	text-align: center;
+}
+
+#Related Golf Balls img.icon {
+	display: block;
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+#Related Golf Balls h3{
+	margin-bottom: 10px;
+}
+
+/** Header navigation **/
+
+
+header .navbar {
+	padding: 30px 0;
+}
+header .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 5px;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+	color: #EEC856
+}
+.nav.navbar-nav.navbar-right .active a {
+	font-weight: 700;
+	color: #EEC856;
+	background: transparent;
+	border-bottom: 4px solid #EEC856;
+}
+
+.nav.navbar-nav.navbar-right .active a:hover {
+	color: #E15D5F;
+	background: transparent;
+	text-shadow: none;
+}
+
+
+/** Navbar Brand **/
+header .navbar-brand {
+	background-image:url(../images/Golfbag.svg);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto
+}
+header .navbar-brand h1 {
+	margin: 0;
+	font-size: 1.8em;
+	font-weight: 400;
+	padding-left: 105px;
+}
+/** Navbar toggle **/
+	
+header .navbar-toggle {
+	background-color: #279182;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar.navbar-default.navbar-fixed-top {
+	background-color: #5E4C01;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+#carousel1 {
+	padding-top: 70px;
+}
+
+.content.container #collapse1 .nav.navbar-nav.navbar-right {
+	padding-top: 5px;
+}
+
+/*Carousel fade*/
+
+.carousel.fade {
+	opacity: 1;
+}
+.carousel.fade .item {
+	transition: opacity ease-out .7s;
+	left: 0;
+	opacity: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	display: block;
+}
+.carousel.fade .item:first-child {
+	top: auto;
+	opacity: 0;
+	position: relative;
+}
+.carousel.fade .item.active {
+	opacity: 1;
+}
+.carousel-control {
+	opacity: 0;
+}
+#colorChanges {
+	width: 500px;
+	height: 400px;
+}
+#colorChanges h1 {
+	text-align: center;
+	background-color: #BF5A0C;
+	-webkit-transition: all .75s ease;
+	-moz-transition: all .75s ease;
+	-o-transition: all .75s ease;
+	transition: all .75s ease;
+}
+#colorChanges input {
+	margin-left: 10px;
+	background-color: #10DCBF;
+	-webkit-transition: all .75s ease 0s;
+	-moz-transition: all .75s ease;
+	-o-transition: all .75s ease 0s;
+	transition: all .75s ease 0s;
+
+}
+#photoPlane {
+}
+#animatedRollovers {
+	padding-left: 70px;
+	padding-bottom: 65px;
+	font-family: antic-slab;
+	font-style: normal;
+	font-weight: 400;
+	font-size: xx-large;
+	background-image: url(../images/Fighter.svg);
+	background-repeat: no-repeat;
+	width: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	background-position: px
+%;
+	background-position: px
+%;
+	background-position: px
+%;
+	background-position: 400px 0%;
+	background-color: #A7AC58;
+}
+#animatedRollovers #airplaneBackgroundColor .btn {
+	color: #105CE1;
+}
+
+#animatedRollovers #airplaneBackgroundColor .btn {
+	display: inline-block;
+	border: 1px solid rgba(255,255,255,0.50);
+	text-decoration: none;
+	letter-spacing: 2px;
+	margin-right: 10px;
+	width: 200px;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+#animatedRollovers #airplaneBackgroundColor {
+	width: 225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:450px) and (max-width:768px){
+	.golfBalls p {
+		padding: 0 20px;
+	}
+}
+
+
+header .inbody {
+	background: rgba(104,73,49,.9);
+	height: 1000px;
+}
+
+
+
+.container-fluid #colorChanges img {
+	margin-top: 120px;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	margin-left: 100px;
+}
+.nav.navbar-nav.navbar-right .dropdown .dropdown-menu {
+	background-color: #746D12;
+}
+
+
+
+
+/* Blockquotes*/
+
+#golfquotes {
+	padding: 0;
+}
+#golfquotes h2 {
+	display: none;
+}
+#golfquotes blockquote {
+	margin: 0;
+	padding: 0;
+	border-left: none;
+	min-height: 500px;
+	position: relative;
+}
+#golfquotes blockquote .quote {
+	background-color: rgba(255,255,255,.6);
+	padding: 20px 5%;
+	position: absolute;
+	bottom: 0;
+	width: 75%;
+	font-weight: 400;
+	border-radius: 0 50px 0 0;
+}
+#golfquotes blockquote .quote:hover{
+	background-color: rgba(239,240,196,.9);
+}
+#golfquotes #sergiogarcia {
+	background: url(../images/QuotePics/sergioGarcia.jpg) no-repeat center center;
+	background-size: cover;
+}
+#golfquotes #dustinjohnson {
+	background: url(../images/QuotePics/dustinJohnson.jpg) no-repeat center center;
+	background-size: cover;
+}
+#golfquotes #jasonday {
+	background: url(../images/QuotePics/jasonDay.jpg) no-repeat center center;
+	background-size: cover}
+#golfquotes #paulacreamer {
+	background: url(../images/QuotePics/paulaCreamer.jpg) no-repeat center center;
+	background-size: cover
+}
+#golfquotes #brittneylinciome {
+	background: url(../images/QuotePics/brittneyLincicome.jpg) no-repeat center center;
+	background-size: cover;
+}
+#golfquotes #lexithompson {
+	background: url(../images/QuotePics/lexiThompson.jpg) no-repeat center center;
+	background-size: cover
+}
+#golfquotes .quote {
+	font-size: 1.2em;
+	line-height: 110%;
+	font-weight: 400;
+}
+#golfquotes .quote .more, #golfquotes .quote .proname {
+	opacity: 0;
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px;
+}
+#golfquotes .quote:hover .more {
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	font-weight: 100;
+	display: block;
+	opacity: 1;
+	font-size: .8em;
+	line-height: 120%;
+}
+#golfquotes .quote:hover .proname {
+	display: block;
+	font-size: .7em;
+	text-align: right;
+}
+#golfquotes .quote .intro::after {
+	content: '...';
+}
+#golfquotes .quote:hover .intro::after {
+	content: '';
+}
+/** Footer **/
+
+footer {
+	background: #586D74;
+	color: white;
+	font-size: .8em;
+	padding: 20px 0 40px 0;
+}
+footer a {
+	color: #E0E6AE ;
+}
+footer a:hover !important  {
+	color: #EEC856;
+}
+footer .phone {
+	font-size: 1.4em;
+	font-weight: 700;
+	color: #E0E6AE;
+}
+footer .navbar {
+	margin-bottom: 0;
+	min-height: 0;
+}
+footer .navbar-default {
+	background-color: transparent;
+	border: none;
+	margin-left: 40px;
+}
+footer .navbar-nav>li a {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: underline;
+	color: #EEC856!important;
+}
+#colorChanges h1:hover {
+	background-color: #E112E7;
+}
+#colorChanges input:focus {
+	background-color: #C210E9;
+	color: #FFFFFF;
+}
+.container-fluid #colorChanges img:hover {
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-box-shadow: 3px 3px 5px #000;
+	-moz-box-shadow: 3px 3px 5px #000;
+	-o-box-shadow: 3px 3px 5px #000;
+	-ms-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+}
+.container-fluid {
+	
+	-webkit-perspective: 500px;
+	
+}
+#photoPlane {
+	-webkit-transition: all 3s cubic-bezier(0.950,0.050,0.795,0.035);
+	-webkit-transition-delay: 1s;
+	width: 500px;
+}
+
+.animated {
+	-webkit-transform: rotateX(-720deg);
+}
+#fontSizeIncrease {
+	font-size: .7em;
+	-webkit-transition: font-size .5s ease;
+}
+#fontSizeIncrease:hover {
+	font-size: 1em;
+}
+/*#photoPlane:hover {
+	-webkit-transform: rotateY(360deg);
+}
+*/
+#animatedRollovers #airplaneBackgroundColor .btn:hover {
+	background-color: rgba(0,0,0,0.4);
+	border-color: #FFFFFF;
+	border-left-width: 30px;
+	color: #FFFFFF;
+	letter-spacing: 4px;
+}
+#animationR2D2 {
+	background-size: cover;
+	background-position: 0px -250px;
+}
+#r2d2Animation {
+	margin: 20em auto 2em auto;
+	width: 80%;
+	position: relative;
+}
+.robot {
+	animation: slide 2s 1s cubic-bezier(.08,1.12,.87,.35) 2 forwards alternate;
+}
+@keyframes slide {
+	0% {transform: translateX(0);}
+	20% {transform: translateX(200px);}
+	35% {transform: translateX(0);}
+	90% {transform: translateX(980px);}
+	100% {transform: translateX(900px);}
+}
+.cloudmovement{
+	background: #678bb3;
+	padding: 0;
+	margin: 0;
+}
+.sky {
+	width: 100%;
+	height: 1000px;
+	background: transparent url(../images/sky.jpg) top left no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	position: relative;
+}
+.cloud {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	background: transparent url(../images/cloud1.jpg) 0 0 no-repeat;
+}
+
+.cloud01 {
+	top: 100px;
+	z-index: 100;
+	animation: drift 25s linear infinite; 
+}
+.cloud02 {
+	top: 325px;
+	z-index: 200;
+	animation: drift 35s 10s linear infinite backwards;
+}
+@keyframes drift {
+	from{transform: translateX(-255px);}
+	to{transform: translateX(1550px);}
+}

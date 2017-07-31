@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0.5 0.5 500 500"
+	 enable-background="new 0.5 0.5 500 500" xml:space="preserve">
+<title>Golfbag</title>
+<desc>Created with Sketch.</desc>
+<g id="colored" sketch:type="MSPage">
+	<g id="Golfflag" transform="translate(41.000000, 45.000000)" sketch:type="MSLayerGroup">
+		
+			<ellipse id="Oval-857" sketch:type="MSShapeGroup" fill="#5ECB66" stroke="#314E55" stroke-width="16.68" stroke-linecap="round" stroke-linejoin="round" cx="213" cy="359.8" rx="217" ry="54.2">
+		</ellipse>
+		
+			<path id="Oval-858" sketch:type="MSShapeGroup" fill="none" stroke="#314E55" stroke-width="16.68" stroke-linecap="round" stroke-linejoin="round" d="
+			M108.7,351.4c0,4.6,9.3,8.3,20.9,8.3c11.5,0,20.9-3.7,20.9-8.3"/>
+		
+			<path id="Line" sketch:type="MSShapeGroup" fill="none" stroke="#314E55" stroke-width="16.68" stroke-linecap="round" stroke-linejoin="round" d="
+			M129.5,355.6V-11.7"/>
+		
+			<path id="Triangle-35" sketch:type="MSShapeGroup" fill="#E65F58" stroke="#314E55" stroke-width="16.68" stroke-linecap="round" stroke-linejoin="round" d="
+			M129.5,138.6V5l158.6,66.8L129.5,138.6z"/>
+	</g>
+	<g id="Activities_sliced" transform="translate(-4003.000000, -6004.000000)" sketch:type="MSLayerGroup">
+	</g>
+</g>
+</svg>
